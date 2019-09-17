@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Bus Tour Booking: Survey</title>
+</head>
+<body>
+    <form id="html_bustourbookingform" runat="server" method="POST" action="http://sandbox.bittsdevelopment.com/humber/httpdebug/acceptdata.php">
+        <section>
+            <h1>Bus Tour Booking: Survey</h1>
+            <p>
+                Thank you for using our online booking tool.<br />
+                Please tell us about your bus tour experience. Your feedback is appreciated and helps us improve our service.
+            </p>
+        </section>
+        <main>
+            <section>
+                <label for="html_confirmation_number"> Please enter your booking confirmation number:</label>
+                <div><input type="text" id="html_confirmation_number" name="html_confirmation_number" /></div>
+            </section>
+            <section>
+                <label>Which country do you currently reside in?</label>
+                <div><input type="radio" id="html_country_reside_option_1" name="html_country_reside" value="canada" /><label for="html_country_reside_option_1">Canada</label></div>
+                <div><input type="radio" id="html_country_reside_option_2" name="html_country_reside" value="usa" /><label for="html_country_reside_option_2">United States</label></div>
+                <div><input type="radio" id="html_country_reside_option_3" name="html_country_reside" value="mexico" /><label for="html_country_reside_option_3">Mexico</label></div>
+            </section>
+            <section>
+                <label> Which of the following cities did you visit on your most recent bus tour? Please select all that apply.</label>
+                <div><input type="checkbox" id="html_visiting_city_option_1" name="html_visiting_city_option_1" value="toronto" /><label for="html_visiting_city_option_1">Toronto</label></div>
+                <div><input type="checkbox" id="html_visiting_city_option_2" name="html_visiting_city_option_2" value="newyork" /><label for="html_visiting_city_option_2">New York</label></div>
+                <div><input type="checkbox" id="html_visiting_city_option_3" name="html_visiting_city_option_3" value="mexicocity" /><label for="html_visiting_city_option_3">Mexico City</label></div>
+            </section>
+            <section>
+                <label>Would you be interested if we offered bus tours to any of the following cities? Please select all that apply.</label>
+                <div><input type="checkbox" id="html_future_cities_option_1" name="html_future_cities_option_1" value="chicago" /><label for="html_future_cities_option_1">Chicago</label></div>
+                <div><input type="checkbox" id="html_future_cities_option_2" name="html_future_cities_option_2" value="boston" /><label for="html_future_cities_option_2">Boston</label></div>
+                <div><input type="checkbox" id="html_future_cities_option_3" name="html_future_cities_option_3" value="vancouver" /><label for="html_future_cities_option_3">Vancouver</label></div>
+            </section>
+            <section>
+                <label>Was our online booking services easy to use?</label>
+                <div><input type="radio" id="html_user_friendly_option_1" name="html_user_friendly" value="yes" /><label for="html_user_friendly_option_1">Yes, it was easy to use.</label></div>
+                <div><input type="radio" id="html_user_friendly_option_2" name="html_user_friendly" value="somewhat" /><label for="html_user_friendly_option_2">Somewhat easy to use.</label></div>
+                <div><input type="radio" id="html_user_friendly_option_3" name="html_user_friendly" value="no" /><label for="html_user_friendly_option_3">No, it was difficult to use.</label></div>
+            </section>
+            <section>
+                <label>Would you recommend our online booking services to family or friends?</label>
+                <div><select id="html_booking_booking_recommendation" name=" html_booking_recommendation"></div>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+                <option value="maybe">Maybe</option>
+                </select>
+            </section>
+            <section>
+                <input type="submit" value="Submit" />
+            </section>
+        </main>
+    </form>
+</body>
+</html>
