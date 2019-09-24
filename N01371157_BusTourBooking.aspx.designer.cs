@@ -22,57 +22,75 @@ namespace HTTP5101_SusanBoratynska {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// html_confirmation_number control.
+        /// confirmation_number control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox html_confirmation_number;
+        protected global::System.Web.UI.WebControls.TextBox confirmation_number;
         
         /// <summary>
-        /// aspx_country_reside control.
+        /// review_bus_cleanliness control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList aspx_country_reside;
+        protected global::System.Web.UI.WebControls.RadioButtonList review_bus_cleanliness;
         
         /// <summary>
-        /// aspx_visiting_city control.
+        /// review_visiting_city control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBoxList aspx_visiting_city;
+        protected global::System.Web.UI.WebControls.CheckBoxList review_visiting_city;
         
         /// <summary>
-        /// aspx_future_cities control.
+        /// review_future_cities control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBoxList aspx_future_cities;
+        protected global::System.Web.UI.WebControls.CheckBoxList review_future_cities;
         
         /// <summary>
-        /// aspx_user_friendly control.
+        /// review_trip_satisfaction control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList aspx_user_friendly;
+        protected global::System.Web.UI.WebControls.RadioButtonList review_trip_satisfaction;
         
         /// <summary>
-        /// aspx_booking_recommendation control.
+        /// review_booking_recommendation control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList aspx_booking_recommendation;
+        protected global::System.Web.UI.WebControls.DropDownList review_booking_recommendation;
+        
+        /// <summary>
+        /// user_phone_number control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox user_phone_number;
+        
+        /// <summary>
+        /// confirmation control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl confirmation;
     }
 }
